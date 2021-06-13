@@ -1,0 +1,59 @@
+{
+  "name": "zadnji",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@syncfusion/ej2-base": "^19.1.64",
+    "@syncfusion/ej2-data": "^19.1.63",
+    "@syncfusion/ej2-vue-base": "^19.1.63",
+    "@syncfusion/ej2-vue-calendars": "^19.1.66",
+    "@syncfusion/ej2-vue-dropdowns": "^19.1.67",
+    "@syncfusion/ej2-vue-grids": "^19.1.67",
+    "@syncfusion/ej2-vue-inputs": "^19.1.67",
+    "@syncfusion/ej2-vue-navigations": "^19.1.67",
+    "@syncfusion/ej2-vue-schedule": "^19.1.67",
+    "babel-loader": "^8.2.2",
+    "core-js": "^3.14.0",
+    "daypilot-pro-vue": "https://npm.daypilot.org/daypilot-pro-vue/trial/2021.2.5000.tar.gz",
+    "vue": "^2.6.13",
+    "vue-router": "^3.5.1",
+    "vuetify": "^2.5.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.13",
+    "@vue/cli-plugin-eslint": "~4.5.13",
+    "@vue/cli-service": "~4.5.13",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.28.0",
+    "eslint-plugin-vue": "^7.10.0",
+    "sass": "~1.34.1",
+    "sass-loader": "^12.0.0",
+    "vue-cli-plugin-vuetify": "~2.4.1",
+    "vue-template-compiler": "^2.6.13",
+    "vuetify-loader": "^1.7.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
